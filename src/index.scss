@@ -25,4 +25,9 @@ body {
 
 .navbar {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  header {
+    flex-grow: 1;
+  }
 }
