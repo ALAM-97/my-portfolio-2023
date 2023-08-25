@@ -6,6 +6,7 @@ const WhatIDo = ({ id }) => {
       id={id}
       type="dark"
       title="What I do"
+      buttons={false}
       text={
         <div>
           I provide clients with <span>solid</span> web solutions, developed
