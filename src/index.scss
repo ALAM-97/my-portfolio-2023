@@ -27,6 +27,9 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 768px) {
+    height: -webkit-fill-available;
+  }
   header {
     flex-grow: 1;
   }
