@@ -44,6 +44,7 @@ button {
   @media screen and (max-width: 1024px) {
     width: 100%;
     transition: none;
+    font-size: 1.3125rem;
     p {
       top: 50%;
       left: 50%;
@@ -71,7 +72,7 @@ button {
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 3.5rem;
-    font-size: 1.5625rem;
+    font-size: 1.125rem;
     transition: none;
     p {
       top: 50%;
