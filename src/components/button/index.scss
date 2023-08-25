@@ -1,0 +1,100 @@
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid var(--dark-2);
+  position: relative;
+  width: 11em;
+  height: 2.15em;
+  transition: 0.5s;
+  font-size: 1.875rem;
+  border-radius: 3.125rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  p {
+    position: absolute;
+    top: 50%;
+    left: 2em;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    color: var(--dark-2);
+  }
+  svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: var(--light);
+  }
+  &:hover p {
+    left: 0.5em;
+    color: var(--light);
+  }
+  &:hover svg {
+    opacity: 1;
+  }
+  &:hover {
+    background-color: var(--dark-2);
+  }
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    transition: none;
+    p {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 0;
+      transition: none;
+    }
+    svg {
+      transition: none;
+    }
+    &:hover p {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: var(--dark-2);
+    }
+    &:hover svg {
+      opacity: 0;
+    }
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.5625rem;
+    transition: none;
+    p {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 0;
+      transition: none;
+    }
+    svg {
+      transition: none;
+    }
+    &:hover p {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: var(--dark-2);
+    }
+    &:hover svg {
+      opacity: 0;
+    }
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}

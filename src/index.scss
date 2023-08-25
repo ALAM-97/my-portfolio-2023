@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: Kollektif, Helvetica, Arial, sans-serif;
+  max-width: 1920px;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: var(--dark-3);
+  color: var(--light);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-osx-font-smoothing: grayscale;
+  @media screen and (max-width: 1920px) {
+    margin: 0 0.625rem;
+  }
+}

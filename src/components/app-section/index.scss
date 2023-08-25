@@ -1,0 +1,85 @@
+.AppSection {
+  padding: 1.875rem;
+  border-radius: 1.5625rem;
+  position: relative;
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  .title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.1875rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5625rem;
+  }
+  .text {
+    width: 70%;
+    font-size: 7.8125rem;
+    span {
+      font-style: italic;
+      font-weight: 600;
+    }
+  }
+  .buttons-section {
+    display: flex;
+    justify-content: space-between;
+    button {
+      margin-top: 6.25rem;
+      margin-left: 0.625rem;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .text {
+      width: 80%;
+      font-size: 5rem;
+    }
+    .buttons-section {
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 4.375rem;
+      button {
+        margin-top: 0.625rem;
+        margin-left: 0;
+      }
+      .lower-buttons {
+        display: flex;
+        gap: 0.625rem;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 1.25rem;
+    img {
+      width: 70%;
+    }
+    .title {
+      font-size: 1.5625rem;
+    }
+    .text {
+      width: 100%;
+      font-size: 3rem;
+    }
+    .buttons-section {
+      margin-top: 3.125rem;
+    }
+  }
+}
+
+.AppSection.dark {
+  background-color: var(--dark-3);
+  color: var(--primary);
+  img {
+    opacity: 0.1;
+  }
+}
+.AppSection.primary {
+  background-color: var(--primary);
+  color: var(--dark-2);
+  img {
+    opacity: 0.1;
+  }
+}

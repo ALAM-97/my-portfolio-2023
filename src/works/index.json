@@ -1,0 +1,22 @@
+[
+  {
+    "id": "01",
+    "name": "The Team",
+    "info": "Freelance Project (Apr 2023 - In progress)",
+    "logo": "/assets/theteam-logo.webp",
+    "link": "https://www.theteamsporttraders.it/",
+    "bgcolor": "#eaeaea",
+    "textcolor": "#262626",
+    "width": "full"
+  },
+  {
+    "id": "02",
+    "name": "Yeldo",
+    "info": "Company Project (Apr 2022 - In progress)",
+    "logo": "/assets/yeldo-logo.webp",
+    "link": "https://www.yeldo.com",
+    "bgcolor": "#8334cd",
+    "textcolor": "#eaeaea",
+    "width": "full"
+  }
+]

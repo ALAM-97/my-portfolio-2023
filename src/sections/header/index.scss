@@ -1,0 +1,20 @@
+header {
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  img {
+    width: 15%;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    img {
+      width: 15%;
+    }
+    img {
+      width: 30%;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.menu {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  .portfolio-pic {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    img {
+      width: 90%;
+    }
+  }
+  .links {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    .link-1 {
+      width: calc(50% - 0.3125rem);
+    }
+    .link-2 {
+      width: calc(50% - 0.3125rem);
+    }
+    .link-3 {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    .portfolio-pic {
+      width: 100%;
+      margin-bottom: 0.625rem;
+      img {
+        width: 60%;
+      }
+    }
+    .links {
+      width: 100%;
+      .link-1 {
+        width: calc(50% - 0.3125rem);
+      }
+      .link-2 {
+        width: calc(50% - 0.3125rem);
+      }
+      .link-3 {
+        width: 100%;
+      }
+    }
+  }
+}

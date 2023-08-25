@@ -1,0 +1,58 @@
+.AboutBox {
+  width: 100%;
+  display: flex;
+  margin: 0.625rem 0;
+  background-color: var(--dark-1);
+  border-radius: 1.5625rem;
+
+  .left-box,
+  .right-box {
+    padding: 1.875rem;
+    min-height: 11.25rem;
+    border-radius: 1.5625rem;
+  }
+  .left-box {
+    z-index: 10;
+    display: grid;
+    place-items: center;
+    width: 35%;
+    background-color: var(--primary);
+    color: var(--dark-1);
+    font-size: 4.375rem;
+    font-weight: 600;
+  }
+  .right-box {
+    width: 65%;
+    color: var(--light);
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+  @media screen and (max-width: 1024px) {
+    .left-box {
+      width: calc(100% - 2.5rem);
+      font-size: 3.5rem;
+    }
+    .right-box {
+      width: calc(100% - 1.25rem);
+      font-size: 1.4rem;
+      line-height: 1.55rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    .left-box,
+    .right-box {
+      padding: 1.25rem;
+      min-height: 1.875rem;
+    }
+    .left-box {
+      width: calc(100% - 2.5rem);
+      font-size: 2rem;
+    }
+    .right-box {
+      width: calc(100% - 1.25rem);
+      font-size: 1.4rem;
+      line-height: 1.55rem;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.WorkBox {
+  padding: 1.875rem;
+  border-radius: 1.5625rem;
+  min-height: 40.625rem;
+  display: flex;
+  flex-direction: column;
+  transition: 0.15s all ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transform: scale(0.98);
+    transition: 0.15s all ease-in-out;
+  }
+  .upper-line,
+  .bottom-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.875rem;
+    .id {
+      font-size: 2.8125rem;
+      font-weight: bold;
+    }
+    .icon {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  }
+  .logo {
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    img {
+      width: 25%;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    min-height: 34.375rem;
+    .logo {
+      img {
+        width: 50%;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .upper-line,
+    .bottom-line {
+      font-size: 1.5625rem;
+      .id {
+        font-size: 2.1875rem;
+      }
+      .icon {
+        font-size: 1.5625rem;
+        font-weight: bold;
+      }
+    }
+    .logo {
+      img {
+        width: 60%;
+      }
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .logo {
+      img {
+        width: 80%;
+      }
+    }
+  }
+}
+
+.WorkBox.full {
+  width: 100%;
+}
+.WorkBox.half {
+  width: calc(50% - 4.0625rem);
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
