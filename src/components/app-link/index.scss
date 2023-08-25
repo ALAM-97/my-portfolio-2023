@@ -29,6 +29,14 @@
       }
     }
   }
+  @media screen and (max-width: 1024px) {
+    font-size: 1.3rem;
+    .content {
+      span {
+        font-size: 1.4rem;
+      }
+    }
+  }
 }
 
 // bg colors
