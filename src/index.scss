@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
+* {
+  font-family: Kollektif;
+}
+
 body {
-  font-family: Kollektif, Helvetica, Arial, sans-serif;
   max-width: 1920px;
   padding: 0;
   margin: 0 auto;
@@ -24,12 +27,8 @@ body {
 }
 
 .navbar {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  @media screen and (max-width: 768px) {
-    height: -webkit-fill-available;
-  }
   header {
     flex-grow: 1;
   }
