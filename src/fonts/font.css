@@ -1,4 +1,14 @@
-@font-face {
+/* @font-face {
   font-family: Kollektif;
-  src: url("./assets/font/Kollektif.ttf");
+  src: url("./assets/font/Kollektif.ttf"); 
+} */
+
+@font-face {
+  font-family: "Kollektif";
+  src: url("./assets/font/Kollektif.eot");
+  src: url("./assets/font/Kollektif.eot?#iefix") format("embedded-opentype"),
+    url("./assets/font/Kollektif.woff2") format("woff2"),
+    url("./assets/font/Kollektif.woff") format("woff"),
+    url("./assets/font/Kollektif.ttf") format("truetype"),
+    url("./assets/font/Kollektif.svg#Kollektif") format("svg");
 }

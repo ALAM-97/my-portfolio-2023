@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Kollektif";
+  src: url("Kollektif.eot");
+  src: url("Kollektif.eot?#iefix") format("embedded-opentype"),
+    url("Kollektif.woff2") format("woff2"), url("Kollektif.woff") format("woff"),
+    url("Kollektif.ttf") format("truetype"),
+    url("Kollektif.svg#Kollektif") format("svg");
+}
