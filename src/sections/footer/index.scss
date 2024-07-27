@@ -6,14 +6,18 @@ footer {
   img {
     width: 10%;
   }
-  p {
-    font-size: 1.875rem;
+  div {
+    font-size: 1.4rem;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
+
   @media screen and (max-width: 1024px) {
     img {
       width: 15%;
     }
-    p {
+    div {
       font-size: 1.5625rem;
     }
   }
@@ -22,7 +26,7 @@ footer {
     img {
       width: 40%;
     }
-    p {
+    div {
       margin-top: 1.5625rem;
       font-size: 1.25rem;
       text-align: center;

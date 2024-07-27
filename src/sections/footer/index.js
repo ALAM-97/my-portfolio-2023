@@ -4,7 +4,10 @@ const Footer = () => {
   return (
     <footer>
       <img src="/assets/logo-light.svg" alt="Logo" />
-      <p>© 2023, all rights reserved by ALESSANDROAMARA.DEV</p>
+      <div className="footer-info">
+        <div>© 2024, all rights reserved by ALESSANDROAMARA.DEV</div>
+        <div>P. Iva n° 17505601009</div>
+      </div>
     </footer>
   );
 };
