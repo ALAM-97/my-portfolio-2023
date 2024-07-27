@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <section className="menu">
       <div className="portfolio-pic">
-        <img src="/assets/portfolio-pic.png" alt="Alam" />
+        <img src="/assets/portfolio-blob.png" alt="Alam" />
       </div>
       <div className="links">
         <div className="link-1">
