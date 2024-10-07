@@ -3,7 +3,18 @@ import "./index.scss";
 const Header = () => {
   return (
     <header>
-      <img src="/assets/logo-light.svg" alt="Alam Logo" />
+      <div>
+        <img
+          className="logo"
+          src="/assets/alam-logo-light.svg"
+          alt="Alam Logo"
+        />
+        <img
+          className="text"
+          src="/assets/alam-logo-text.svg"
+          alt="Alam Logo Text"
+        />
+      </div>
     </header>
   );
 };

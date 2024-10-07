@@ -7,9 +7,9 @@ const AppSection = ({ type, title, text, id, buttons }) => {
       <div className="title">{title}</div>
       <div className="text">{text}</div>
       {type === "dark" ? (
-        <img src="/assets/logo-light.svg" alt="logo" />
+        <img src="/assets/negative-logo-light.svg" alt="logo" />
       ) : (
-        <img src="/assets/logo-dark.svg" alt="logo" />
+        <img src="/assets/negative-logo-dark.svg" alt="logo" />
       )}
       {buttons ? (
         <div className="buttons-section">

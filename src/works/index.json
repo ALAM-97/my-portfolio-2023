@@ -7,7 +7,7 @@
     "link": "https://www.theteamsporttraders.it/",
     "bgcolor": "#FC6600",
     "textcolor": "#262626",
-    "width": "full"
+    "width": "half"
   },
   {
     "id": "02",
@@ -37,6 +37,6 @@
     "link": null,
     "bgcolor": "#550000",
     "textcolor": "#eaeaea",
-    "width": "full"
+    "width": "half"
   }
 ]

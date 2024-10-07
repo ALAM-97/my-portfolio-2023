@@ -1,20 +1,30 @@
 header {
-  padding-top: 7.5rem;
-  padding-bottom: 0rem;
-  width: 100%;
-  display: grid;
-  place-items: center;
-  img {
-    width: 15%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  div {
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      width: 10%;
+    }
+    .text {
+      width: 25%;
+    }
   }
   @media screen and (max-width: 768px) {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    img {
-      width: 15%;
-    }
-    img {
-      width: 30%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    div {
+      padding-top: 3rem;
+      .logo {
+        width: 15%;
+      }
+      .text {
+        width: 35%;
+      }
     }
   }
 }
