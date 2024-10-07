@@ -2,15 +2,27 @@ import AppSection from "../../components/app-section";
 
 const WhatIDo = ({ id }) => {
   return (
+    // <AppSection
+    //   id={id}
+    //   type="dark"
+    //   title="What I do"
+    //   buttons={false}
+    //   text={
+    //     <div>
+    //       I provide clients with <span>solid</span> web solutions, developed
+    //       with <span>love</span> & <span>dedication</span>.
+    //     </div>
+    //   }
+    // />
     <AppSection
       id={id}
       type="dark"
-      title="What I do"
+      title="Di cosa mi occupo"
       buttons={false}
       text={
         <div>
-          I provide clients with <span>solid</span> web solutions, developed
-          with <span>love</span> & <span>dedication</span>.
+          Offro ai miei clienti soluzioni web <span>solide</span>, sviluppate
+          con <span>amore</span> & <span>dedizione</span>.
         </div>
       }
     />

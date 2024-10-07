@@ -11,7 +11,7 @@ const Menu = () => {
         <div className="link-1">
           <AppLink
             type="light"
-            text="My work"
+            text="Lavori"
             icon={"code_blocks"}
             anchor={"my-work"}
           />
@@ -19,7 +19,7 @@ const Menu = () => {
         <div className="link-2">
           <AppLink
             type="dark"
-            text="About me"
+            text="Su di me"
             icon={"assignment_ind"}
             anchor={"about-me"}
           />
@@ -27,7 +27,7 @@ const Menu = () => {
         <div className="link-3">
           <AppLink
             type="primary"
-            text="Contact me"
+            text="Contattami"
             icon={"call"}
             anchor={"contact-me"}
           />
