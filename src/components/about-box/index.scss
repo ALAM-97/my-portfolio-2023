@@ -18,11 +18,14 @@
     width: 35%;
     background-color: var(--primary);
     color: var(--dark-1);
-    font-size: 4.375rem;
+    font-size: 4rem;
     font-weight: 600;
+    text-align: center;
   }
   .right-box {
     width: 65%;
+    display: grid;
+    place-items: center;
     color: var(--light);
     font-size: 2rem;
     line-height: 2.375rem;
