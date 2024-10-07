@@ -22,7 +22,7 @@ const WhatIDo = ({ id }) => {
       text={
         <div>
           Offro ai miei clienti soluzioni web <span>solide</span>, sviluppate
-          con <span>amore</span> & <span>dedizione</span>.
+          con <span>amore</span> e <span>dedizione</span>.
         </div>
       }
     />
