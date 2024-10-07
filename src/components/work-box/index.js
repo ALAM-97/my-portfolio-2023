@@ -12,7 +12,7 @@ const WorkBox = ({ work }) => {
         color: work.textcolor,
         outlineColor: work.bordercolor,
       }}
-      onClick={() => (work.link ? handleClick : null)}
+      onClick={() => (work.link !== null ? handleClick() : null)}
     >
       <div className="upper-line">
         <div className="id">{work.id}</div>
