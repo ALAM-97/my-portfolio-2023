@@ -8,7 +8,7 @@ const WorkBox = ({ work }) => {
     <div
       className={`WorkBox ${work.width}`}
       style={{ backgroundColor: work.bgcolor, color: work.textcolor }}
-      onClick={handleClick}
+      onClick={() => (work.link ? handleClick : null)}
     >
       <div className="upper-line">
         <div className="id">{work.id}</div>
@@ -19,7 +19,9 @@ const WorkBox = ({ work }) => {
       </div>
       <div className="bottom-line">
         <div>{work.info}</div>
-        <span className="material-symbols-outlined icon">north_east</span>
+        {work.link && (
+          <span className="material-symbols-outlined icon">north_east</span>
+        )}
       </div>
     </div>
   );

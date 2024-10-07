@@ -28,5 +28,15 @@
     "bgcolor": "#eaeaea",
     "textcolor": "#262626",
     "width": "half"
+  },
+  {
+    "id": "04",
+    "name": "AQ Personal Trainer",
+    "info": "Freelance Project (Oct 2024 - In progress)",
+    "logo": "/assets/logo-alessio.svg",
+    "link": null,
+    "bgcolor": "#550000",
+    "textcolor": "#eaeaea",
+    "width": "full"
   }
 ]
