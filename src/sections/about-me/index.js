@@ -13,7 +13,7 @@ const AboutMe = () => {
       /> */}
       <AboutBox
         title="Su di me"
-        text="Sono una persona socievole, creativa e determinata. Ama il mio lavoro e cerco continui stimoli per dare il meglio di me. La mia carriera nel campo tecnologico è iniziata nel 2021, in questi anni ho lavorato su diversi progetti, da siti web istituzionali a applicazioni web più complesse che mirano a semplificare il lavoro giornaliero dei miei clienti."
+        text="Sono una persona socievole, creativa e determinata. Amo il mio lavoro e cerco continui stimoli per dare il meglio di me. La mia carriera nel campo tecnologico è iniziata nel 2021, in questi anni ho lavorato su diversi progetti, da siti web istituzionali a applicazioni web più complesse che mirano a semplificare il lavoro giornaliero dei miei clienti."
       />
       <AboutBox
         title="I miei punti di forza"
