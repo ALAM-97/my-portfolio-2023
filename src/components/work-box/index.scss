@@ -6,9 +6,12 @@
   flex-direction: column;
   transition: 0.15s all ease-in-out;
   cursor: pointer;
+  border: none;
+
   &:hover {
-    transform: scale(0.98);
+    transform: scale(0.97);
     transition: 0.15s all ease-in-out;
+    outline: 5px solid;
   }
   .upper-line,
   .bottom-line {
@@ -30,7 +33,7 @@
     display: grid;
     place-items: center;
     img {
-      width: 25%;
+      width: 30%;
     }
   }
   @media screen and (max-width: 1024px) {
@@ -72,7 +75,7 @@
   width: 100%;
 }
 .WorkBox.half {
-  width: calc(50% - 4.0625rem);
+  width: calc(50% - 4.4rem);
   @media screen and (max-width: 768px) {
     width: 100%;
   }

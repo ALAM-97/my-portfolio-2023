@@ -7,7 +7,11 @@ const WorkBox = ({ work }) => {
   return (
     <div
       className={`WorkBox ${work.width}`}
-      style={{ backgroundColor: work.bgcolor, color: work.textcolor }}
+      style={{
+        backgroundColor: work.bgcolor,
+        color: work.textcolor,
+        outlineColor: work.bordercolor,
+      }}
       onClick={() => (work.link ? handleClick : null)}
     >
       <div className="upper-line">

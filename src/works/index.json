@@ -3,10 +3,11 @@
     "id": "01",
     "name": "The Team",
     "info": "Freelance Project (Apr 2023 - Dec 2023)",
-    "logo": "/assets/theteam-logo.webp",
+    "logo": "/assets/theteam-logo-white.webp",
     "link": "https://www.theteamsporttraders.it/",
-    "bgcolor": "#FC6600",
-    "textcolor": "#262626",
+    "bgcolor": "#3b3b3b",
+    "textcolor": "#eaeaea",
+    "bordercolor": "#FC6600",
     "width": "half"
   },
   {
@@ -15,28 +16,31 @@
     "info": "Company Project (Apr 2022 - In progress)",
     "logo": "/assets/yeldo-logo.webp",
     "link": "https://www.yeldo.com",
-    "bgcolor": "#8334cd",
+    "bgcolor": "#3b3b3b",
     "textcolor": "#eaeaea",
+    "bordercolor": "#8334cd",
     "width": "half"
   },
   {
     "id": "03",
     "name": "Sanimedica",
     "info": "Freelance Project (Mar 2024 - Jun 2024)",
-    "logo": "/assets/Sanimedica-logo.png",
+    "logo": "/assets/Sanimedica-logo-white.webp",
     "link": "https://www.gesammsanimedica.it/",
-    "bgcolor": "#eaeaea",
-    "textcolor": "#262626",
+    "bgcolor": "#3b3b3b",
+    "textcolor": "#eaeaea",
+    "bordercolor": "#037c92",
     "width": "half"
   },
   {
     "id": "04",
     "name": "AQ Personal Trainer",
     "info": "Freelance Project (Oct 2024 - In progress)",
-    "logo": "/assets/logo-alessio.svg",
+    "logo": "/assets/aq-logo-gray.webp",
     "link": null,
-    "bgcolor": "#550000",
+    "bgcolor": "#3b3b3b",
     "textcolor": "#eaeaea",
+    "bordercolor": "#550000",
     "width": "half"
   }
 ]
