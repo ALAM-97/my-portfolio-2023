@@ -1,13 +1,13 @@
 [
   {
     "id": "01",
-    "name": "The Team",
-    "info": "Freelance Project (Apr 2023 - Dec 2023)",
-    "logo": "/assets/theteam-logo-white.webp",
-    "link": "https://www.theteamsporttraders.it/",
+    "name": "No Digital Brain",
+    "info": "Freelance Project (Dec 2024 - Jan 2025)",
+    "logo": "/assets/logo-ndb.webp",
+    "link": "https://ndb-preventivatore.vercel.app/",
     "bgcolor": "#3b3b3b",
     "textcolor": "#eaeaea",
-    "bordercolor": "#FC6600",
+    "bordercolor": "#aa09aa",
     "width": "half"
   },
   {
